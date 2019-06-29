@@ -1,0 +1,18 @@
+server: 
+    port: 8001
+spring: 
+    application: 
+       name: minroservicecloud-dept
+eureka:
+  client: 
+    service-url: 
+      defaultZone: http://localhost:7001/eureka/
+  instacnce:
+         instance-id: minroservicecloud-dept-8001
+         preferIpAddress: true
+         ip-address: 192.16.199.218    
+info: 
+   app.name: atguigu-microservicecloud
+   company.name: www.baidu.com111
+   build.artifactId: $project.artifactId$
+   build.version: $project.version$
